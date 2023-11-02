@@ -1,0 +1,72 @@
+form{
+    width:100%;
+    margin: 0 auto;
+}
+.form-row{
+    border: 29em;
+    margin-top: 2px;
+}
+.btn{  
+    display: flex;
+    width: 283px;
+    height: 70px;
+    text-align: center;
+    position: relative;
+    font-size: 32px;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: center;
+   align-items: center;
+}
+.form-group{
+    float:left;
+    margin-left: 200px;
+    width: 370px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-group label{
+    margin-top:3px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.lb-admin{
+    margin-top: 5px;
+    align-items: center;
+    display:table-cell;
+    vertical-align: middle;
+    margin: 0 ;
+    font-size: 50px;
+    width: 466px;
+    height: 93px;
+    flex-direction: column;
+}
+.lb-administrator{
+
+    margin:0;
+    // margin-left: 161px;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 36px;
+    width: 245px;
+    height: 54px;
+}
+.fundo{
+    display: flex;
+    background-color: whitesmoke;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    padding: 5%;
+
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 0 0 rgb(178, 174,174);
+}
+
+strong{
+    color: blue;    
+}
